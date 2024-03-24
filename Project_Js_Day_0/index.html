@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="assets/styles/app.css">
     
+
+</head>
+
+
+<body>
+
+    <header>
+    <h2>The Unconventional Calculator</h2>
+    </header>
+
+    <section id="calculator">
+        <input type="number" id="input-number"/>
+        
+        <div>
+         <button type="button" id="btn-add">+</button>
+         <button type="button" id="btn-subtract">-</button>
+         <button type="button" id="btn-multiply">*</button>   
+         <button type="button" id="btn-divide">/</button>
+        </div>
+
+    </section>
+
+    <section id="results">
+
+        <h3 id="current-calculation">0</h3>
+
+        <h3>Results : <span id="current-result">0</span> </h3>
+    
+    </section>
+    
+    <script src="assets/scripts/vendor.js"></script>
+    <script src="assets/scripts/app.js"></script>
 </body>
+
+
 </html>

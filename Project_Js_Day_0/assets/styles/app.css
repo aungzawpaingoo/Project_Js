@@ -1,0 +1,78 @@
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2rem; /* Adjust font size for header */
+}
+
+/* Calculator section */
+#calculator {
+    background-color: #0C359E;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px; /* Adjust width as needed */
+}
+
+#input-number {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+    text-align: center;
+    align-self: center; /* Right-align for classic calculator style */
+}
+
+/* Operator buttons */
+#calculator button {
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    margin: 5px; /* Add some margin for separation */
+    background-color: #1F2544; /* Use consistent background color for operators */
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#calculator button:hover {
+    background-color: white;
+}
+
+/* Results section */
+#results {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 1.1rem; /* Adjust font size for results */
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+#current-calculation {
+    color: #666; /* Lighter color for ongoing calculation */
+}
+
+#current-result {
+    font-weight: bold;
+}
