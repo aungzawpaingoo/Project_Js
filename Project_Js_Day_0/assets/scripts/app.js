@@ -4,9 +4,10 @@ let currentResult = defaultResult;
 
 
 function add () {
-        
- currentResult = currentResult + userInput.value;  
- outputResult(currentResult,'');
+
+ const calDescription = `${currentResult} + ${userInput.value}`   
+ currentResult = currentResult + + userInput.value;
+ outputResult(currentResult,calDescription);
 
 }
 
